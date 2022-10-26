@@ -1,0 +1,87 @@
+    @charset "utf-8";
+    /* CSS Document */
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html,
+    body {
+        font-size: 62.5%;
+        color: #333;
+        font-family: Helvetica Neue, PingFang SC, Microsoft YaHei, Helvetica, Arial, sans-serif;
+        background: #fff;
+        height: 100%;
+    }
+    ul,
+    li {
+        list-style: none;
+    }
+    .privacy {
+        padding: 5rem 8rem;
+        color: #333;
+    }
+    .privacy .banner{
+		background-color: #464855;
+		color: #FFFFFF;
+		font-weight: bold;
+		text-indent: 5px;
+		font-size: 1.6rem;
+	}
+    .privacy h1 {
+        text-align: center;
+        font-size: 4rem;
+        line-height: 7rem;
+    }
+    
+    .privacy p {
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+        margin-top: 1rem;
+    }
+    
+    .privacy ul li {
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+        margin-top: 1rem;
+		list-style-type: disc;
+		list-style-position: inside;
+    }
+    
+    .privacy h3 {
+        font-size: 2.8rem;
+        line-height: 4rem;
+        margin: 3rem 0 1rem;
+    }
+    
+    .privacy h4 {
+        font-size: 2.4rem;
+        line-height: 4rem;
+        margin: 2rem 0 1rem;
+    }
+	.privacy h5 {
+	    font-size: 1.6rem;
+	    line-height: 3.2rem;
+	    margin-top: 1rem;
+	}
+    
+    .privacy a {
+        color: #2868EC;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    .privacy a:hover {
+        text-decoration: none;
+    }
+    
+    .privacy .tab {
+        margin-left: 3rem;
+    }
+	
+	@media screen and (max-width: 500px) {
+		.privacy {
+			padding: 1rem 2rem;
+		}
+	}
